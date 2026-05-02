@@ -4,8 +4,8 @@ A RAG (Retrieval Augmented Generation) system that answers questions
 from technical manufacturing manuals using LangChain, FAISS, and Google Gemini.
 
 ## How it works
-1. ingest.py -- loads PDF, splits into chunks, creates FAISS vector store
-2. rag.py -- loads vector store, retrieves relevant chunks, generates answers
+1. ingest.py - loads PDF, splits into chunks, creates FAISS vector store
+2. rag.py - loads vector store, retrieves relevant chunks, generates answers
 
 ## Demo
 Question: how do I connect my phone
